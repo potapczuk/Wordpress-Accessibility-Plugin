@@ -1,0 +1,100 @@
+#acessibilidade {
+	float:right;
+	margin-top: 1em;
+	margin-right: 1em;
+	font-size: 145%;
+	font-weight: bold;
+}
+
+#acess {
+	margin-top: -0.5em;
+	display:block;
+	float:left;
+	margin-right: 0.5em;
+}
+
+.escondido {
+	position:absolute;
+	top: -1000em;
+	left: -1000em;
+}
+
+a#acess-como-usar {
+	display: block;
+	float:left;
+	background: #051623;
+/*	border-radius: 0.4em;
+	-moz-border-radius: 0.4em; */
+	padding: 0.2em 0.5em;
+	color: #f5db00;
+	margin-right: 0.5em;
+}
+
+a#acess-ir-para-conteudo, a#acess-ir-para-menu, a#acess-ir-para-menu-secundario, a.acess-link-escondido {
+	display: block;
+	float:left;
+	color:#f5db00;
+	background: #051623;
+/*	border-radius: 0.4em;
+	-moz-border-radius: 0.4em; */
+	padding: 0.2em 0.5em;
+	margin-right: 0.5em;
+}
+
+a#acess-ir-para-conteudo:hover, a#acess-ir-para-conteudo:focus, 
+a#acess-ir-para-menu:hover, a#acess-ir-para-menu:focus, 
+a#acess-ir-para-menu-secundario:hover, a#acess-ir-para-menu-secundario:focus,
+a.acess-link-escondido:hover, a.acess-link-escondido:focus {
+	position:inherit;
+}
+
+a#acess-normal {
+	display: block;
+	float:left;
+	background: #f6f6eb !important;
+/*	border-radius: 0.4em;
+	-moz-border-radius: 0.4em; */
+	padding: 0.2em 0.2em;
+	color: #4a413a !important;
+	margin-right: 0.5em;
+	font-size: 120%;
+}
+
+a#acess-contraste {
+	display: block;
+	float:left;
+	background: #111;
+/*	border-radius: 0.4em;
+	-moz-border-radius: 0.4em;*/
+	padding: 0.2em 0.2em;
+	color: #ffe400;
+	margin-right: 0.5em;
+	font-size: 120%;
+}
+
+a.acess-link {
+	display: block;
+	float:left;
+	background: #051623;
+/*	border-radius: 0.4em;
+	-moz-border-radius: 0.4em; */
+	padding: 0.2em 0.5em;
+	color: #f5db00;
+	margin-right: 0.5em;
+}
+
+#acess-a-menos img {
+	margin-right: 0.4em;
+}
+
+#acess-a img {
+	margin-right: 0.5em;
+}
+
+#acess-a-mais img {
+	margin-top: 0.2em;
+}
+
+.noAltText {
+    border: 0.3em dashed #F5DB00;
+}

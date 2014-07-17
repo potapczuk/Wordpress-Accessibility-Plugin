@@ -1,0 +1,21 @@
+body, a, h1, h2, h3, h4, div, small, p, ul, ol, li {
+	color:#ff0 !important;
+	background: #000 !important;
+}
+
+div#sidebar, div#sidebar div, div#sidebar ul, div#sidebar a, div#sidebar li, div#sidebar h1, div#sidebar h2 {
+    background: #111 !important;
+}
+
+div#headerimg, div#headerimg div, div#headerimg a, div#headerimg h1 {
+    background: #070707 !important;
+}
+
+#searchsubmit {
+	color:#ff0 !important; 
+	background: #000 !important;
+	border: 0.1em solid #fff;
+/*	border-radius: 0.3em;
+	-moz-border-radius: 0.3em; */
+	cursor: pointer;
+}
